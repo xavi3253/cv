@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javier CV</title>
+</head>
+<body>
+    <table cellspacing="20">
+        <tr> 
+            <td><img src="Images/profile-website-modified-smaller.png" alt="Javier Facebook profile picture"></td>
+            <td><h1>Javier Abraham Perez Zelaya</h1><p><strong>Quality supervisor</strong> <em>Concentrix Nicaragua</em></p>
+                <p><strong>LinkdIn </strong><strong><a href="https://www.linkedin.com/in/javier-p%C3%A9rez-zelaya-a27200219/">Profile</a></strong></p>
+                <h3><a href="Contact.html">Contact me</a></h3><a href="Skills.html">Skills table</a>
+                <h3><a href="Hobbies.html">My hobbies</a></h3>
+            </td>
+            <td></td>
+        </tr>
+    </table>
+
+    <!--Below we have the image so we add picture from any URL in the internet, alt is an alternative text when the browser cannot display the picture-->
+    <!--When the picture is on the same level as the code we can make a direct reference to it and not using an internet URL-->  
+    <!--The tag below is to add a paragraph-->
+    <!--Use EM instead of I for italized this would help to gather more info between-->
+    <!--Use strong instead of b for BOLD text this would help to gather more info between-->
+
+    <!--To use reference to external links we use the element a, however this element is not closed immediately, 
+        we use the href and add the link, once that is done we go ahead and close the reference, the link goes within the element-->
+    
+    <hr size="4", color="Red">
+    <h2><strong>About me</strong></h2>
+    <p>I am a web developer, oriented to quality for different software, my main experience has been in the BPO
+        industry, currently learning more about coding and programming.</p>
+     <hr size="4", color="Red">
+     <h3>My work experience</h3>
+     <p>Concentrix, Nicaragua 2018-Present:</p>
+     <ul>
+       <li>Frequently communicate expectations to employees and provide timely updates and changes.</li>
+       <li>Provide subject matter expertise in handling escalated customer calls as needed to the team of 
+        Quality Analysts so they can then communicate how to handle the scenarios to Team Leads and 
+        advocates.</li>
+       <li>Ensure that all Human Resources policies and procedures are adhered to, as well share any 
+        communications.</li>
+       <li>Stay current on internal work processes, policies and procedures.</li>
+       <li>Promote the company's values through both behavior and attitude, including being an advocate for its team members.</li>
+       <li>Critical action alert management, provide business intelligence for fraud prevention local and partner sites.</li>
+       <li>Create a proactive approach to reduce fraud, ensure there is documentation and an on-going investigation.</li>
+       <li>Lead QAs and foster their professional development and growth via effective coaching and communication, promote teamwork and cooperation.</li>
+     </ul>
+
+     <hr size="4", color="Red">
+     <h3>My recent work experience</h3>
+     <!--Everything for a table must be done within the table elements THERE ARE NO TABLE COLUMNS IN HTML this is replaced by Table data (td)-->
+     <table>
+        <!--tr is table row, td is table data, thead - column name, th table head data, everything goes within table element, even though the browser know how to format the table
+        we always do it in different sections since once we apply CSS we won't be able to modify properly-->
+        <thead>
+            <tr>
+                <th>Dates</th>
+                <th>Role</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2021-2023</td>
+                <td>Quality supervisor</td>
+            </tr>
+            <tr>            
+                <td>2018-2020</td>
+                <td>Tech support ambassador</td>
+            </tr>
+        </tbody>
+        <tfoot>
+
+        </tfoot>
+
+     </table>
+</body>
+</html>
